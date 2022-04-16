@@ -1,10 +1,10 @@
+// O(n2) solution
 class Solution1 {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
 
         vector<int> result {-1, -1};
 
-        // O(n2) solution
         for(int i = 0; i < nums.size(); i++)
         {
             for(int j = 0; j < nums.size(); j++)
@@ -68,7 +68,6 @@ public:
                 first_idx++;
             }
         }
-
        return result;
     }
 };
