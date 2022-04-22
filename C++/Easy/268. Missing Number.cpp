@@ -1,5 +1,5 @@
 // O(nlogn)
-class Solution {
+class Solution1 {
 public:
     int missingNumber(vector<int>& nums)
     {
@@ -30,7 +30,7 @@ This made all the numbers except the missing one to be zero
 Also while doing xor, order does not matter
 */
 
-class Solution {
+class Solution2 {
 public:
     int missingNumber(vector<int>& nums)
     {
