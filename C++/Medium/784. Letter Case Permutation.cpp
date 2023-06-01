@@ -24,13 +24,12 @@ public:
                 op2.push_back(tolower(s[0]));
             }
 
-        // remove the processed character to reduce the input size    
-        s.erase(s.begin() + 0);
+            // remove the processed character to reduce the input size    
+            s.erase(s.begin() + 0);
         
-        // process the input string recursively
-        solve(s, op1, res);
-        solve(s, op2, res);
-
+            // process the input string recursively
+            solve(s, op1, res);
+            solve(s, op2, res);
         }
         else if (isdigit(s[0]))
         {
