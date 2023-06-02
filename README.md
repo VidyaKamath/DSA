@@ -1,2 +1,2 @@
-# leet-code
-Solutions to problems in leet code: https://leetcode.com/
+# leet-code. and Geeks for Geeks
+Solutions to problems in leet code: https://leetcode.com/ and https://practice.geeksforgeeks.org/
